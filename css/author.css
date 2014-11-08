@@ -1,0 +1,205 @@
+body { background-color: black }
+#wrapper { background-color: black }
+
+#section1 { background-color: black }
+#section2 { background-color: black }
+#section3 { background-color: black }
+#section4 { background-color: black }
+
+/* headers, paragraphs, addy */
+#galleryHeader { 
+	padding-left:10px;
+	color:#bbaf6f;
+	font-size: 25px;
+	font-family: Palatino Linotype,
+	Book Antiqua, Palatino, serif; 
+}
+h1 a { color:#c45a32;
+	   font-family: arial;
+	   font-size: 15px; }
+h1 a:hover { 
+	color:#8b3f23;
+	text-decoration: none; }
+
+h2 {
+	padding-left: 10px; 
+	color:#bbaf6f;
+	font-size: 25px;
+	font-family: Palatino Linotype,
+	Book Antiqua, Palatino, serif; 
+}
+
+p {
+	color:#999a98;
+	font-family: arial;
+	font-size: 15px;
+	margin-top:10px; }
+
+p a { color:#c45a32; }
+p a:hover { 
+	color: #8b3f23;
+	text-decoration: none; }	
+
+
+.infoHeader { 
+	color:#d8c984;
+	font-size: 15px;
+	font-family: Helvetica;
+	font-style: bold;
+}
+.info { 
+	color:#a6a6aa;
+	font-size: 11px;
+}
+
+/* --- Glyph Icons --- */
+.glyphicon {
+	color: #b5b2bb;
+	font-size: 20px;
+}
+
+/* responsive inset*/
+.inset {
+	background-color: black;
+	min-width: 320px;
+	max-width: 900px;
+	width: 100%;
+	margin: auto;
+}
+
+/* header/section/nav/footer */
+header { 	height: 130px; background: black; }
+nav { 		padding: 10px; background: black; }
+section { 	min-height: 345px;
+			max-height: 900px; }
+footer { 	height: 140px; background: black; }
+
+/*logo*/
+#logoContainer { 
+	width:155px;
+	height:130px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#logoContainer img { 
+	width:155px;
+	height:130px;
+}
+
+/* ---- footer nav ----*/
+nav#footermenu { text-align: center; }
+nav#footermenu a { 
+	display: inline-block;
+	width: 60px;
+	margin-bottom: 5px;
+	height: 30px;
+	line-height: 25px;
+	text-decoration: none;
+	background-color:black ;
+	color: #d7cc7e;
+	font-size: 13px;
+	font-family: Palatino Linotype, 
+	Book Antiqua, Palatino, serif;
+}
+nav#footermenu a:hover { 
+	color: #b4b1b4;
+	text-decoration: none;
+}
+nav img {
+	width:170px;
+	height:135px;
+	margin:auto;
+	padding-top: 5px
+}
+span { 
+	padding:0px;
+	display: inline-block;
+	width:10px;
+	height:32px; 
+}
+#socialContainer {
+	width:100px;
+	height:35px;
+	padding:5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer p { 
+	text-align: center;
+	color:#b4b1b4;
+	height:25px;
+	font-size: 10px;
+	margin-top: 5px;
+	background-color: black;
+	line-height: 30px
+}
+
+#overlay { ; background-color: black; padding: 1px; }
+
+#overlay .piece { 
+			width: 350px; 
+			height: 230px; 
+			position: relative;
+			overflow: hidden;
+		}
+#overlay .piece img {
+			width: 350px;
+			height: 230px;
+
+			position: absolute;
+			left: 0px; top: 0px; right: 0px; bottom: 0px;
+
+			margin: auto;
+		}
+#overlay .piece .text {
+			background-color: rgba(0,0,0.5);
+			color: #eee;
+			position: absolute;
+			left: 0px; bottom: -45px; right: 0px;
+			padding: 5px;
+		}
+#overlay .piece .text h1 { font-size: 14px; margin: 0px; }
+#overlay .piece .text .desc { font-size: 12px; }
+
+/* Map */
+
+#addyText { 
+	background-color: black;
+	padding:5px;
+	color:#bbaf6f;
+}
+
+#desc { background-color:black; }
+
+.info { color:#a8a8a8;
+	
+ }
+
+/* ----------------------------
+			Page 2
+-----------------------------*/
+
+table { 
+	min-width: 320px;
+	height:650px;
+	background-color: blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
