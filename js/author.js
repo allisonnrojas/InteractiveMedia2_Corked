@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	
-
 	function mm_toggle(){
 
 		if (menu_state == 'hidden')
@@ -115,10 +114,9 @@ function light_on() {
 		
 		$('#dark .light')
 			.stop(true)
-			.animate({'height':newHeight},1000, function() {
+			.animate({'height':newHeight},900, function() {
 				$('#dark .light img').animate({'opacity':'1'},500);
 			});
-
 
 	});
 	
@@ -159,6 +157,13 @@ function overlay_over() {
 			$('#overlay .piece').mouseover(overlay_over);
 			$('#overlay .piece').mouseout(overlay_out);
 
+
+/* font color change */
+
+$('.color').click(function(){
+				$(this).css({'color':'#9f965c'});
+
+});  
 
 
 
